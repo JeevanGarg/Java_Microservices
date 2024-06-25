@@ -5,11 +5,9 @@ import com.DepartmentService.entity.Department;
 import com.DepartmentService.exception.DepartmentNoFoundException;
 import com.DepartmentService.repository.DepartmentRepository;
 import com.DepartmentService.service.DepartmentService;
-import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
